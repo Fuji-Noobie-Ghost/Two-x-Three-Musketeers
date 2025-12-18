@@ -1,14 +1,29 @@
 <script setup lang="ts">
 import EditorView from './components/EditorView.vue';
-import HelloWorld from './components/HelloWorld.vue'
-
+import EditorToolbar from './components/EditorToolbar.vue';
 </script>
 
 <template>
   <v-app>
-    <v-main>
-      <!-- <v-btn color="primary">Test Vuetify</v-btn> -->
-      <EditorView/>     
+    <v-app-bar app color="white" elevation="2" density="compact">
+      <v-toolbar-title class="text-h6 font-weight-bold text-grey-darken-2 mx-2">IA-Malagasy</v-toolbar-title>
+      
+      <EditorToolbar />
+      
+      <v-spacer></v-spacer>
+
+      <v-btn prepend-icon="mdi-content-save" variant="text">
+        Sauvegarder
+      </v-btn>
+
+      <v-btn prepend-icon="mdi-printer" variant="text">
+        Imprimer
+      </v-btn>
+    </v-app-bar>
+    <v-main class="d-flex align-center justify-center">
+      <v-container>
+        <EditorView/>
+      </v-container>
     </v-main>
   </v-app>
   
