@@ -1,6 +1,7 @@
 <template>
   <div v-if="editor" class="container">
     <v-toolbar density="compact" class="mb-4">
+      <!-- Boutons existants... -->
       <v-btn icon :variant="editor.isActive('bold') ? 'tonal' : 'text'" @click="editor.chain().focus().toggleBold().run()" :disabled="!editor.can().chain().focus().toggleBold().run()">
         <v-icon>mdi-format-bold</v-icon>
       </v-btn>
@@ -24,6 +25,22 @@
       </v-btn>
       <v-btn icon :variant="editor.isActive('paragraph') ? 'tonal' : 'text'" @click="editor.chain().focus().setParagraph().run()">
         <v-icon>mdi-format-paragraph</v-icon>
+      </v-btn>
+
+      <v-divider vertical inset class="mx-2"></v-divider>
+
+      <!-- Boutons d'alignement (AJOUT) -->
+      <v-btn icon :variant="editor.isActive({ textAlign: 'left' }) ? 'tonal' : 'text'" @click="editor.chain().focus().setTextAlign('left').run()">
+        <v-icon>mdi-format-align-left</v-icon>
+      </v-btn>
+      <v-btn icon :variant="editor.isActive({ textAlign: 'center' }) ? 'tonal' : 'text'" @click="editor.chain().focus().setTextAlign('center').run()">
+        <v-icon>mdi-format-align-center</v-icon>
+      </v-btn>
+      <v-btn icon :variant="editor.isActive({ textAlign: 'right' }) ? 'tonal' : 'text'" @click="editor.chain().focus().setTextAlign('right').run()">
+        <v-icon>mdi-format-align-right</v-icon>
+      </v-btn>
+      <v-btn icon :variant="editor.isActive({ textAlign: 'justify' }) ? 'tonal' : 'text'" @click="editor.chain().focus().setTextAlign('justify').run()">
+        <v-icon>mdi-format-align-justify</v-icon>
       </v-btn>
 
       <v-divider vertical inset class="mx-2"></v-divider>
@@ -64,6 +81,7 @@
 import { ListItem } from '@tiptap/extension-list';
 import { Color, TextStyle } from '@tiptap/extension-text-style';
 import StarterKit from '@tiptap/starter-kit';
+import TextAlign from '@tiptap/extension-text-align'; // AJOUT
 import { Editor, EditorContent } from '@tiptap/vue-3';
 
 export default {
@@ -83,33 +101,45 @@ export default {
         Color.configure({ types: [TextStyle.name, ListItem.name] }),
         TextStyle.configure({ types: [ListItem.name] }),
         StarterKit,
+        // AJOUT: Extension d'alignement
+        TextAlign.configure({
+          types: ['heading', 'paragraph', 'listItem'],
+          alignments: ['left', 'center', 'right', 'justify'],
+          defaultAlignment: 'left',
+        }),
       ],
       content: `
         <h2>
           Hi there,
         </h2>
+        <p style="text-align: center">
+          Ce texte est centré.
+        </p>
         <p>
-          this is a <em>basic</em> example of <strong>Tiptap</strong>. Sure, there are all kind of basic text styles you’d probably expect from a text editor. But wait until you see the lists:
+          this is a <em>basic</em> example of <strong>Tiptap</strong>. Sure, there are all kind of basic text styles you'd probably expect from a text editor. But wait until you see the lists:
         </p>
         <ul>
           <li>
-            That’s a bullet list with one …
+            That's a bullet list with one …
           </li>
           <li>
             … or two list items.
           </li>
         </ul>
+        <p style="text-align: right">
+          Ce texte est aligné à droite.
+        </p>
         <p>
-          Isn’t that great? And all of that is editable. But wait, there’s more. Let’s try a code block:
+          Isn't that great? And all of that is editable. But wait, there's more. Let's try a code block:
         </p>
         <pre><code class="language-css">body {
   display: none;
 }</code></pre>
-        <p>
-          I know, I know, this is impressive. It’s only the tip of the iceberg though. Give it a try and click a little bit around. Don’t forget to check the other examples too.
+        <p style="text-align: justify">
+          I know, I know, this is impressive. It's only the tip of the iceberg though. Give it a try and click a little bit around. Don't forget to check the other examples too.
         </p>
         <blockquote>
-          Wow, that’s amazing. Good work, boy! 👏
+          Wow, that's amazing. Good work, boy! 👏
           <br />
           — Mom
         </blockquote>
@@ -124,7 +154,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 .container {
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -135,6 +164,25 @@ export default {
 .tiptap {
   :first-child {
     margin-top: 0;
+  }
+
+  /* Styles d'alignement (AJOUT) */
+  & > * {
+    &[style*="text-align: left"] {
+      text-align: left;
+    }
+    
+    &[style*="text-align: center"] {
+      text-align: center;
+    }
+    
+    &[style*="text-align: right"] {
+      text-align: right;
+    }
+    
+    &[style*="text-align: justify"] {
+      text-align: justify;
+    }
   }
 
   /* List styles */
