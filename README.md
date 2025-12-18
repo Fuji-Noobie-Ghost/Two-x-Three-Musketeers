@@ -1,6 +1,6 @@
-#IAMA_Project
+# **IAMA_Project**
 
-# **Rapport de Projet \- TP Intelligence Artificielle**
+## **Rapport de Projet \- TP Intelligence Artificielle**
 
 ## **Examen Clinique TP Intelligence Artificielle**
 
