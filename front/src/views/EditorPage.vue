@@ -3,6 +3,8 @@ import { onUnmounted, defineOptions, watch } from 'vue';
 import EditorView from '../components/EditorView.vue';
 import EditorToolbar from '../components/EditorToolbar.vue';
 import { useEditorStore } from '../stores/editor';
+import logo from '../assets/IA-MA.jpg'
+
 
 const editorStore = useEditorStore();
 
@@ -24,8 +26,16 @@ watch(() => editorStore.fullText, (newFullText) => {
 <template>
   <div>
     <v-app-bar app color="white" elevation="2" density="compact">
-      <v-toolbar-title class="text-h6 font-weight-bold text-grey-darken-2 mx-2">IA-Malagasy</v-toolbar-title>
-      
+      <v-btn 
+      color="primary" 
+      to="/"
+    >
+      <v-img
+        :src="logo"
+        width="100"
+        contain
+      ></v-img>
+    </v-btn>
       <EditorToolbar />
       
       <v-spacer></v-spacer>
