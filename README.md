@@ -54,31 +54,8 @@ Un éditeur intelligent conçu spécifiquement pour la langue malgache, combinan
 * numéro : 19
 * rôle : *Lead Backend, DevOps*
 
-### **2\. Fonctionnalité IA Implémentées**
-
-> #### 2.1 *Correcteur Orthographique Hybride*
-   > - Distance de Levenshtein optimisée avec RapidFuzz
-   > - Règles phonotactiques malgaches (nb, mk, nk interdits)
-   > - Dictionnaire de 10,000+ mots scrapés de Wikipedia MG
-
-> #### 2.2 *Lemmatiseur Basé Règles*
-   > - Détection des préfixes (mi-, ma-, man-, etc.)
-   > - Détection des suffixes (-ana, -ina, -na)
-   > - Extraction de racines avec validation
-
-> #### 2.3 *Autocomplétion Intelligente*
-   > - Modèle trigramme entraîné sur spacy
-   > - Suggestions contextuelles
-   > - Prédiction de mots suivants
-
-> #### 2.4 *Traduction Mot-à-Mot*
-   > - Dictionnaire malgache-français local
-   > - Popup au clic droit
-   > - Pas de dépendance API externe
-
-
-### **3\. Résumé du Travail**
-> #### 3.1 *Résumé des Algorithmes clés*
+### **2\. Documentation Technique**
+> #### 2.1 *Résumé des Algorithmes clés*
 | Algorithme               | Type                       | Complexité      | Optimisations                     |
 |--------------------------|----------------------------|----------------|----------------------------------|
 | Correcteur Hybride       | Mixte (Symbolique + Statistique) | O(n*m)         | Cache, seuils, indexation        |
@@ -88,6 +65,39 @@ Un éditeur intelligent conçu spécifiquement pour la langue malgache, combinan
 | Fusion Résultats         | Méta-algorithme           | O(s)           | Pondération, résolution conflits |
 
 Ces algorithmes sont conçus spécifiquement pour les langues à faibles ressources comme le malagasy, avec un accent sur la robustesse, l'efficacité et la capacité à fonctionner avec peu de données.
+
+> #### 2.2 *Architecture Globale*
+> - Vue d'Ensemble
+> - Flux de Données
+
+> #### 2.3 *Technologie*
+> - Backend (FastAPI)
+> - Frontend (React)
+
+### **3\. Fonctionnalité IA Implémentées**
+
+> #### 3.1 *Correcteur Orthographique Hybride*
+   > - Distance de Levenshtein optimisée avec RapidFuzz
+   > - Règles phonotactiques malgaches (nb, mk, nk interdits)
+   > - Dictionnaire de 10,000+ mots scrapés de Wikipedia MG
+
+> #### 3.2 *Lemmatiseur Basé Règles*
+   > - Détection des préfixes (mi-, ma-, man-, etc.)
+   > - Détection des suffixes (-ana, -ina, -na)
+   > - Extraction de racines avec validation
+
+> #### 3.3 *Autocomplétion Intelligente*
+   > - Modèle trigramme entraîné sur spacy
+   > - Suggestions contextuelles
+   > - Prédiction de mots suivants
+
+> #### 3.4 *Traduction Mot-à-Mot*
+   > - Dictionnaire malgache-français local
+   > - Popup au clic droit
+   > - Pas de dépendance API externe
+
+
+
 
 
 
