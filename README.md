@@ -1,6 +1,6 @@
 # **IAMA_Project**
 
-## 🇲🇬 Éditeur de Texte Augmenté par l'IA pour le Malagasy
+## Éditeur de Texte Augmenté par l'IA pour le Malagasy
 Un éditeur intelligent conçu spécifiquement pour la langue malgache, combinant des approches hybrides pour pallier le manque de données.
 
 
