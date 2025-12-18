@@ -1,18 +1,5 @@
-import nltk
 from collections import defaultdict, Counter
 from nltk.tokenize import word_tokenize
-
-# Exemple de corpus malgache (VOS)
-corpus = [
-    "mamaky boky ny mpianatra",
-    "mihinana vary ny zaza",
-    "manasa lamba ny vehivavy",
-    "mividy voa ny lehilahy",
-    "mamono sakamalao ny mpamosavy",
-    "manao sakafo ny reniny",
-    "mitady asa ny dokotera",
-    # Ajoutez-en plus pour de meilleurs résultats
-]
 
 class MarkovLanguageModel:
     def __init__(self, order=2):
@@ -51,14 +38,38 @@ class MarkovLanguageModel:
         candidates = self.ngram_counts[context].most_common(top_k)
         return [word for word, _ in candidates]
 
+
+# Exemple de corpus malgache (VOS)
+
+corpus = []
+
+output_file = "data/bible_malgache_phrases.txt"
+with open(output_file, "r", encoding="utf-8") as f:
+    for line in f:
+        phrase = line.strip()  # Supprime les sauts de ligne et espaces inutiles
+        if phrase:  # Ignore les lignes vides
+            corpus.append(phrase)
+
+
 # ------------------
 # Entraînement
 # ------------------
 model = MarkovLanguageModel(order=3)  # trigramme = ordre 3 → dépend des 2 mots précédents
 model.train(corpus)
 
+# Vérifier si "tonga" est dans le vocabulaire
+vocab = set()
+for context in model.ngram_counts:
+    for word in model.ngram_counts[context]:
+        vocab.add(word)
+
+print("'tonga' dans vocab ? :", "tonga" in vocab)
+print("Exemples de contextes avec 'tonga' :")
+for context, next_words in model.ngram_counts.items():
+    if "tonga" in context or "tonga" in next_words:
+        print(f"  Contexte {context} → {list(next_words.keys())[:3]}")
+
 # ------------------
 # Prédiction
 # ------------------
-print("Après 'mamaky boky' →", model.predict_next(["mamaky", "boky"]))
-print("Après 'mihinana' →", model.predict_next(["mihinana"]))
+print("Après 'tonga' →", model.predict_next(["tonga"]))
