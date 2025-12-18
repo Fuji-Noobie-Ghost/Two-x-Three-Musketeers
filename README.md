@@ -60,6 +60,3 @@ Réalisé au sein de ISPM - Madagascar (www.ispm-edu.com)
 **🔗 Liens Utiles :**
 
 
-
-### **4\. Réponses aux Questions d'Analyse**
-
