@@ -67,7 +67,7 @@ Un éditeur intelligent conçu spécifiquement pour la langue malgache, combinan
    > - Extraction de racines avec validation
 
 > 2.3 *Autocomplétion Intelligente*
-   > - Modèle trigramme entraîné sur corpus
+   > - Modèle trigramme entraîné sur spacy
    > - Suggestions contextuelles
    > - Prédiction de mots suivants
 
