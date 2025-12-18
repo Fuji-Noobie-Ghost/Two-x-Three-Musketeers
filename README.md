@@ -13,7 +13,7 @@ Réalisé au sein de ISPM - Madagascar (www.ispm-edu.com)
 * prénom(s) : Rita Harenah
 * classe : ESIIA 5
 * numéro : 05
-* rôle : *Algo/GLCIA*
+* rôle : *GLCIA*
 
 #### Membre 2 : 
 * nom : RAKOTONOELINA 
@@ -34,7 +34,7 @@ Réalisé au sein de ISPM - Madagascar (www.ispm-edu.com)
 * prénom(s) : Zo Michaël 
 * classe : ESIIA 5
 * numéro : 15
-* rôle : *Algo/GLCIA*
+* rôle : *GLCIA*
 
 #### Membre 5 : 
 * nom : ANDRIAMIHAJA
@@ -48,7 +48,7 @@ Réalisé au sein de ISPM - Madagascar (www.ispm-edu.com)
 * prénom(s) : Joseph Tellia
 * classe : ESIIA 5
 * numéro : 19
-* rôle : *Data/Scraping*
+* rôle : *Algo*
 
 
 ### **2\. Résumé du Travail**
@@ -59,7 +59,4 @@ Réalisé au sein de ISPM - Madagascar (www.ispm-edu.com)
 
 **🔗 Liens Utiles :**
 
-
-
-### **4\. Réponses aux Questions d'Analyse**
 
