@@ -78,8 +78,8 @@ def check_word(w: str = Query(..., description="Mot à valider")):
     return {"success": is_success}
 
 
-@app.get("/autocomplete")
-def get_autocompletions(
+@app.get("/suggestion")
+def get_suggestions(
     word: str = Query(..., description="Mot avec ou sans faute"),
     limit: int = Query(5, ge=1, le=10, description="Nombre max de suggestions")
 ):
@@ -110,8 +110,8 @@ def get_autocompletions(
 
     return BusinessLogicResponse(data=suggestions).send()
 
-@app.get("/suggestion")
-def get_suggestions(
+@app.get("/autocomplete")
+def get_autocompletions(
     words: str = Query(..., description="Mot avec ou sans faute"),
 ):
 
