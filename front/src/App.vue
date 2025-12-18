@@ -7,7 +7,7 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <v-app>
     <v-main>
-      <v-btn color="primary">Test Vuetify</v-btn>
+      <!-- <v-btn color="primary">Test Vuetify</v-btn> -->
       <EditorView/>     
     </v-main>
   </v-app>
