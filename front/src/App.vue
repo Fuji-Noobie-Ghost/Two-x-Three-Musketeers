@@ -20,7 +20,7 @@ import EditorToolbar from './components/EditorToolbar.vue';
         Imprimer
       </v-btn>
     </v-app-bar>
-    <v-main class="d-flex align-center justify-center">
+    <v-main class="">
       <v-container>
         <EditorView/>
       </v-container>

@@ -24,12 +24,12 @@ onBeforeUnmount(() => {
 
 <style lang="scss">
 .editor-container {
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  // border: 1px solid #ccc;
+  // border-radius: 8px;
   padding: 1rem;
   width: 800px; /* Largeur fixe pour l'éditeur */
   max-width: 100%; /* Assure la responsivité sur les petits écrans */
-  margin: 0 auto; /* Centre le conteneur si la vue est plus large */
+ // margin: 0 auto; /* Centre le conteneur si la vue est plus large */
 }
 
 /* Basic editor styles */
@@ -121,6 +121,15 @@ onBeforeUnmount(() => {
     border: none;
     border-top: 1px solid var(--gray-2);
     margin: 2rem 0;
+  }
+
+  /* Placeholder styles */
+  p.is-editor-empty:first-child::before {
+    content: attr(data-placeholder);
+    float: left;
+    color: #adb5bd;
+    pointer-events: none;
+    height: 0;
   }
 }
 
