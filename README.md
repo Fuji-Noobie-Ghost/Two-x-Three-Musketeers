@@ -1,7 +1,5 @@
 # **IAMA_Project**
 
-## **Rapport de Projet \- TP Intelligence Artificielle**
-
 ## **Examen Clinique TP Intelligence Artificielle**
 
 Réalisé au sein de ISPM - Madagascar (www.ispm-edu.com)
