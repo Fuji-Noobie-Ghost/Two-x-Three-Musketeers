@@ -8,7 +8,7 @@ Un éditeur intelligent conçu spécifiquement pour la langue malgache, combinan
 
 Réalisé au sein de ISPM - Madagascar (www.ispm-edu.com)
 
-## ** Nom du projet : IAMA**
+## **Nom du projet : IAMA**
 
 ### **1\. Informations sur le Groupe**
 
