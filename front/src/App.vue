@@ -31,13 +31,13 @@ watch(() => editorStore.fullText, (newFullText) => {
       
       <v-spacer></v-spacer>
 
-      <v-btn prepend-icon="mdi-content-save" variant="text">
+      <!-- <v-btn prepend-icon="mdi-content-save" variant="text">
         Sauvegarder
       </v-btn>
 
       <v-btn prepend-icon="mdi-printer" variant="text">
         Imprimer
-      </v-btn>
+      </v-btn> -->
     </v-app-bar>
     <v-main style="background-color: #fafafa;">
       <v-container fluid>
