@@ -1,20 +1,49 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import EditorView from './components/EditorView.vue';
+import EditorToolbar from './components/EditorToolbar.vue';
 </script>
 
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <v-app>
+    <v-app-bar app color="white" elevation="2" density="compact">
+      <v-toolbar-title class="text-h6 font-weight-bold text-grey-darken-2 mx-2">IA-Malagasy</v-toolbar-title>
+      
+      <EditorToolbar />
+      
+      <v-spacer></v-spacer>
+
+      <v-btn prepend-icon="mdi-content-save" variant="text">
+        Sauvegarder
+      </v-btn>
+
+      <v-btn prepend-icon="mdi-printer" variant="text">
+        Imprimer
+      </v-btn>
+    </v-app-bar>
+    <v-main style="background-color: #fafafa;">
+      <v-container fluid>
+        <v-row>
+          <v-col cols="12" md="8">
+            <EditorView/>
+          </v-col>
+          <v-col cols="12" md="4">
+            <div class="right-panel">Contenu de la div de droite</div>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-main>
+  </v-app>
+  
 </template>
 
 <style scoped>
+.right-panel {
+  border: 1px dashed #ccc;
+  padding: 1rem;
+  height: 100%;
+  background-color: white;
+  border-radius: 4px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
