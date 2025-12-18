@@ -1,6 +1,19 @@
 <script setup lang="ts">
+import { onMounted, onUnmounted, defineOptions } from 'vue';
 import EditorView from './components/EditorView.vue';
 import EditorToolbar from './components/EditorToolbar.vue';
+import { useEditorStore } from './stores/editor';
+
+const editorStore = useEditorStore();
+
+// Définit le nom du composant pour le débogage (Vue DevTools)
+defineOptions({ name: 'App' });
+
+// Initialiser l'éditeur quand le composant est monté
+onMounted(() => editorStore.initializeEditor());
+
+// Détruire l'éditeur pour nettoyer quand le composant est démonté
+onUnmounted(() => editorStore.destroyEditor());
 </script>
 
 <template>
