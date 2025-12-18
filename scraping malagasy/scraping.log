@@ -1,0 +1,383 @@
+2025-12-18 08:30:35,254 - INFO - Base de donn�es initialis�e
+2025-12-18 08:30:35,274 - INFO - Progression: 1/8
+2025-12-18 08:30:35,275 - INFO - Scraping du mot: teny
+2025-12-18 08:30:38,892 - ERROR - Erreur lors de la r�cup�ration de https://tenymalagasy.org/bins/teny2/teny: HTTPSConnectionPool(host='tenymalagasy.org', port=443): Max retries exceeded with url: /bins/teny2/teny (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+2025-12-18 08:30:38,895 - INFO - Progression: 2/8
+2025-12-18 08:30:38,896 - INFO - Scraping du mot: malagasy
+2025-12-18 08:30:42,010 - ERROR - Erreur lors de la r�cup�ration de https://tenymalagasy.org/bins/teny2/malagasy: HTTPSConnectionPool(host='tenymalagasy.org', port=443): Max retries exceeded with url: /bins/teny2/malagasy (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+2025-12-18 08:30:42,017 - INFO - Progression: 3/8
+2025-12-18 08:30:42,019 - INFO - Scraping du mot: fanazavana
+2025-12-18 08:30:45,075 - ERROR - Erreur lors de la r�cup�ration de https://tenymalagasy.org/bins/teny2/fanazavana: HTTPSConnectionPool(host='tenymalagasy.org', port=443): Max retries exceeded with url: /bins/teny2/fanazavana (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+2025-12-18 08:30:45,081 - INFO - Progression: 4/8
+2025-12-18 08:30:45,084 - INFO - Scraping du mot: boky
+2025-12-18 08:30:47,989 - ERROR - Erreur lors de la r�cup�ration de https://tenymalagasy.org/bins/teny2/boky: HTTPSConnectionPool(host='tenymalagasy.org', port=443): Max retries exceeded with url: /bins/teny2/boky (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+2025-12-18 08:30:47,994 - INFO - Progression: 5/8
+2025-12-18 08:30:47,998 - INFO - Scraping du mot: firenena
+2025-12-18 08:30:51,054 - ERROR - Erreur lors de la r�cup�ration de https://tenymalagasy.org/bins/teny2/firenena: HTTPSConnectionPool(host='tenymalagasy.org', port=443): Max retries exceeded with url: /bins/teny2/firenena (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+2025-12-18 08:30:51,056 - INFO - Progression: 6/8
+2025-12-18 08:30:51,057 - INFO - Scraping du mot: tan�na
+2025-12-18 08:30:54,091 - ERROR - Erreur lors de la r�cup�ration de https://tenymalagasy.org/bins/teny2/tan�na: HTTPSConnectionPool(host='tenymalagasy.org', port=443): Max retries exceeded with url: /bins/teny2/tan%C3%A0na (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+2025-12-18 08:30:54,093 - INFO - Progression: 7/8
+2025-12-18 08:30:54,094 - INFO - Scraping du mot: olona
+2025-12-18 08:30:57,136 - ERROR - Erreur lors de la r�cup�ration de https://tenymalagasy.org/bins/teny2/olona: HTTPSConnectionPool(host='tenymalagasy.org', port=443): Max retries exceeded with url: /bins/teny2/olona (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+2025-12-18 08:30:57,138 - INFO - Progression: 8/8
+2025-12-18 08:30:57,140 - INFO - Scraping du mot: zavatra
+2025-12-18 08:31:00,108 - ERROR - Erreur lors de la r�cup�ration de https://tenymalagasy.org/bins/teny2/zavatra: HTTPSConnectionPool(host='tenymalagasy.org', port=443): Max retries exceeded with url: /bins/teny2/zavatra (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+2025-12-18 08:31:00,138 - INFO - Donn�es export�es vers malagasy_export.json
+2025-12-18 08:31:00,147 - INFO - Donn�es export�es vers malagasy_export.csv
+2025-12-18 08:35:00,950 - INFO - Base de donn�es initialis�e
+2025-12-18 08:35:00,953 - INFO - Progression: 1/8
+2025-12-18 08:35:00,954 - INFO - Scraping du mot: teny
+2025-12-18 08:35:04,394 - INFO - Donn�es sauvegard�es pour: Rakibolana sy Rakipahalalana malagasy : teny
+2025-12-18 08:35:04,395 - INFO - Progression: 2/8
+2025-12-18 08:35:04,396 - INFO - Scraping du mot: malagasy
+2025-12-18 08:35:06,815 - INFO - Donn�es sauvegard�es pour: Rakibolana sy Rakipahalalana malagasy : malagasy
+2025-12-18 08:35:06,816 - INFO - Progression: 3/8
+2025-12-18 08:35:06,817 - INFO - Scraping du mot: fanazavana
+2025-12-18 08:35:09,253 - INFO - Donn�es sauvegard�es pour: Rakibolana sy Rakipahalalana malagasy : fanazavana
+2025-12-18 08:35:09,254 - INFO - Progression: 4/8
+2025-12-18 08:35:09,255 - INFO - Scraping du mot: boky
+2025-12-18 08:35:11,690 - INFO - Donn�es sauvegard�es pour: Rakibolana sy Rakipahalalana malagasy : boky
+2025-12-18 08:35:11,691 - INFO - Progression: 5/8
+2025-12-18 08:35:11,692 - INFO - Scraping du mot: firenena
+2025-12-18 08:35:14,127 - INFO - Donn�es sauvegard�es pour: Rakibolana sy Rakipahalalana malagasy : firenena
+2025-12-18 08:35:14,128 - INFO - Progression: 6/8
+2025-12-18 08:35:14,130 - INFO - Scraping du mot: tan�na
+2025-12-18 08:35:16,604 - INFO - Donn�es sauvegard�es pour: Rakibolana sy Rakipahalalana malagasy : tanàna
+2025-12-18 08:35:16,605 - INFO - Progression: 7/8
+2025-12-18 08:35:16,606 - INFO - Scraping du mot: olona
+2025-12-18 08:35:19,063 - INFO - Donn�es sauvegard�es pour: Rakibolana sy Rakipahalalana malagasy : olona
+2025-12-18 08:35:19,064 - INFO - Progression: 8/8
+2025-12-18 08:35:19,064 - INFO - Scraping du mot: zavatra
+2025-12-18 08:35:21,500 - INFO - Donn�es sauvegard�es pour: Rakibolana sy Rakipahalalana malagasy : zavatra
+2025-12-18 08:35:21,526 - INFO - Donn�es export�es vers malagasy_export.json
+2025-12-18 08:35:21,534 - INFO - Donn�es export�es vers malagasy_export.csv
+2025-12-18 08:45:17,443 - INFO - 
+=== DÉBUT DU SCRAPING ===
+
+2025-12-18 08:45:17,454 - INFO - Extraction des plages alphabétiques...
+2025-12-18 08:45:20,075 - ERROR - Erreur lors de la récupération de /bins/alphaLists: HTTPSConnectionPool(host='tenymalagasy.org', port=443): Max retries exceeded with url: /bins/alphaLists (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1129)')))
+2025-12-18 08:45:20,082 - INFO - Limitation à 3 plages pour ce test
+
+2025-12-18 08:45:20,086 - INFO - 
+=== SCRAPING TERMINÉ ===
+2025-12-18 08:45:20,087 - INFO - Total de mots collectés: 0
+2025-12-18 08:45:20,088 - INFO - Durée totale: 2.65 secondes
+2025-12-18 08:45:20,090 - WARNING - Aucune donnée à exporter!
+2025-12-18 08:45:20,091 - WARNING - Aucune donnée à exporter!
+2025-12-18 08:46:27,659 - INFO - 
+=== DÉBUT DU SCRAPING ===
+
+2025-12-18 08:46:27,661 - INFO - Extraction des plages alphabétiques...
+2025-12-18 08:46:30,612 - INFO - ✓ 63 plages alphabétiques trouvées
+2025-12-18 08:46:30,613 - INFO - Limitation à 3 plages pour ce test
+
+2025-12-18 08:46:30,614 - INFO - [1/3] Plage: Fitenim-paritra
+2025-12-18 08:46:32,518 - INFO -   ✓ 2 mots extraits de 'Fitenim-paritra'
+2025-12-18 08:46:32,519 - INFO - [2/3] Plage: Anaran-tsamirery
+2025-12-18 08:46:35,301 - INFO -   ✓ 5 mots extraits de 'Anaran-tsamirery'
+2025-12-18 08:46:35,302 - INFO - [3/3] Plage: Fitsipi-pitenenana
+2025-12-18 08:46:37,174 - INFO -   ✓ 3 mots extraits de 'Fitsipi-pitenenana'
+2025-12-18 08:46:37,175 - INFO - 
+=== SCRAPING TERMINÉ ===
+2025-12-18 08:46:37,177 - INFO - Total de mots collectés: 10
+2025-12-18 08:46:37,178 - INFO - Durée totale: 9.52 secondes
+2025-12-18 08:46:37,182 - INFO - ✓ 10 mots exportés vers malagasy_dictionary.json
+2025-12-18 08:46:37,192 - INFO - ✓ 10 mots exportés vers malagasy_dictionary.csv
+2025-12-18 08:49:09,846 - INFO - 
+=== DÉBUT DU SCRAPING ===
+
+2025-12-18 08:49:09,849 - INFO - Extraction des plages alphabétiques...
+2025-12-18 08:49:12,929 - INFO - ✓ 63 plages alphabétiques trouvées
+2025-12-18 08:49:12,930 - INFO - [1/63] Plage: Fitenim-paritra
+2025-12-18 08:49:14,782 - INFO -   ✓ 2 mots extraits de 'Fitenim-paritra'
+2025-12-18 08:49:14,783 - INFO - [2/63] Plage: Anaran-tsamirery
+2025-12-18 08:49:17,110 - INFO -   ✓ 5 mots extraits de 'Anaran-tsamirery'
+2025-12-18 08:49:17,112 - INFO - [3/63] Plage: Fitsipi-pitenenana
+2025-12-18 08:49:18,983 - INFO -   ✓ 3 mots extraits de 'Fitsipi-pitenenana'
+2025-12-18 08:49:18,984 - INFO - [4/63] Plage: Mpiara-miasa
+2025-12-18 08:49:20,838 - INFO -   ✓ 1 mots extraits de 'Mpiara-miasa'
+2025-12-18 08:49:20,839 - INFO - [5/63] Plage: Sokajin-teny
+2025-12-18 08:49:22,768 - INFO -   ✓ 77 mots extraits de 'Sokajin-teny'
+2025-12-18 08:49:22,769 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:49:32,779 - INFO - [6/63] Plage: -
+2025-12-18 08:49:37,026 - INFO -   ✓ 2109 mots extraits de '-'
+2025-12-18 08:49:37,027 - INFO - [7/63] Plage: -
+2025-12-18 08:49:40,658 - INFO -   ✓ 3410 mots extraits de '-'
+2025-12-18 08:49:40,660 - INFO - [8/63] Plage: -
+2025-12-18 08:49:45,195 - INFO -   ✓ 5457 mots extraits de '-'
+2025-12-18 08:49:45,197 - INFO - [9/63] Plage: -ay
+2025-12-18 08:49:48,869 - INFO -   ✓ 3216 mots extraits de '-ay'
+2025-12-18 08:49:48,870 - INFO - [10/63] Plage: -
+2025-12-18 08:49:52,515 - INFO -   ✓ 3216 mots extraits de '-'
+2025-12-18 08:49:52,516 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:50:02,531 - INFO - [11/63] Plage: -
+2025-12-18 08:50:07,259 - INFO -   ✓ 2407 mots extraits de '-'
+2025-12-18 08:50:07,261 - INFO - [12/63] Plage: -
+2025-12-18 08:50:09,964 - INFO -   ✓ 1447 mots extraits de '-'
+2025-12-18 08:50:09,965 - INFO - [13/63] Plage: -
+2025-12-18 08:50:12,445 - INFO -   ✓ 788 mots extraits de '-'
+2025-12-18 08:50:12,448 - INFO - [14/63] Plage: -
+2025-12-18 08:50:14,944 - INFO -   ✓ 998 mots extraits de '-'
+2025-12-18 08:50:14,945 - INFO - [15/63] Plage: -
+2025-12-18 08:50:17,543 - INFO -   ✓ 1204 mots extraits de '-'
+2025-12-18 08:50:17,544 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:50:27,557 - INFO - [16/63] Plage: -
+2025-12-18 08:50:31,575 - INFO -   ✓ 2106 mots extraits de '-'
+2025-12-18 08:50:31,577 - INFO - [17/63] Plage: -
+2025-12-18 08:50:34,891 - INFO -   ✓ 2404 mots extraits de '-'
+2025-12-18 08:50:34,893 - INFO - [18/63] Plage: fao-
+2025-12-18 08:50:38,292 - INFO -   ✓ 2404 mots extraits de 'fao-'
+2025-12-18 08:50:38,293 - INFO - [19/63] Plage: -
+2025-12-18 08:50:41,532 - INFO -   ✓ 2103 mots extraits de '-'
+2025-12-18 08:50:41,534 - INFO - [20/63] Plage: -
+2025-12-18 08:50:43,484 - INFO -   ✓ 350 mots extraits de '-'
+2025-12-18 08:50:43,485 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:50:53,492 - INFO - [21/63] Plage: -
+2025-12-18 08:50:57,468 - INFO -   ✓ 1895 mots extraits de '-'
+2025-12-18 08:50:57,469 - INFO - [22/63] Plage: -
+2025-12-18 08:50:59,789 - INFO -   ✓ 1122 mots extraits de '-'
+2025-12-18 08:50:59,790 - INFO - [23/63] Plage: -
+2025-12-18 08:51:03,160 - INFO -   ✓ 3385 mots extraits de '-'
+2025-12-18 08:51:03,161 - INFO - [24/63] Plage: FX-Mahah
+2025-12-18 08:51:06,548 - INFO -   ✓ 3385 mots extraits de 'FX-Mahah'
+2025-12-18 08:51:06,549 - INFO - [25/63] Plage: -
+2025-12-18 08:51:08,625 - INFO -   ✓ 617 mots extraits de '-'
+2025-12-18 08:51:08,626 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:51:18,630 - INFO - [26/63] Plage: h-
+2025-12-18 08:51:23,603 - INFO -   ✓ 4231 mots extraits de 'h-'
+2025-12-18 08:51:23,605 - INFO - [27/63] Plage: -
+2025-12-18 08:51:27,528 - INFO -   ✓ 4231 mots extraits de '-'
+2025-12-18 08:51:27,529 - INFO - [28/63] Plage: -
+2025-12-18 08:51:31,887 - INFO -   ✓ 5018 mots extraits de '-'
+2025-12-18 08:51:31,889 - INFO - [29/63] Plage: -
+2025-12-18 08:51:34,394 - INFO -   ✓ 676 mots extraits de '-'
+2025-12-18 08:51:34,396 - INFO - [30/63] Plage: -
+2025-12-18 08:51:38,171 - INFO -   ✓ 4266 mots extraits de '-'
+2025-12-18 08:51:38,172 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:51:48,186 - INFO - [31/63] Plage: -
+2025-12-18 08:51:52,370 - INFO -   ✓ 2741 mots extraits de '-'
+2025-12-18 08:51:52,372 - INFO - [32/63] Plage: -
+2025-12-18 08:51:56,384 - INFO -   ✓ 4028 mots extraits de '-'
+2025-12-18 08:51:56,386 - INFO - [33/63] Plage: -
+2025-12-18 08:52:00,321 - INFO -   ✓ 3299 mots extraits de '-'
+2025-12-18 08:52:00,322 - INFO - [34/63] Plage: -
+2025-12-18 08:52:03,925 - INFO -   ✓ 3153 mots extraits de '-'
+2025-12-18 08:52:03,927 - INFO - [35/63] Plage: -
+2025-12-18 08:52:07,646 - INFO -   ✓ 3664 mots extraits de '-'
+2025-12-18 08:52:07,647 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:52:17,656 - INFO - [36/63] Plage: -
+2025-12-18 08:52:21,923 - INFO -   ✓ 2303 mots extraits de '-'
+2025-12-18 08:52:21,924 - INFO - [37/63] Plage: -
+2025-12-18 08:52:24,573 - INFO -   ✓ 1004 mots extraits de '-'
+2025-12-18 08:52:24,575 - INFO - [38/63] Plage: -
+2025-12-18 08:52:27,335 - INFO -   ✓ 1542 mots extraits de '-'
+2025-12-18 08:52:27,336 - INFO - [39/63] Plage: -
+2025-12-18 08:52:31,943 - INFO -   ✓ 4756 mots extraits de '-'
+2025-12-18 08:52:31,944 - INFO - [40/63] Plage: -
+2025-12-18 08:52:35,537 - INFO -   ✓ 2819 mots extraits de '-'
+2025-12-18 08:52:35,539 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:52:45,555 - INFO - [41/63] Plage: -
+2025-12-18 08:52:49,751 - INFO -   ✓ 1987 mots extraits de '-'
+2025-12-18 08:52:49,753 - INFO - [42/63] Plage: -
+2025-12-18 08:52:51,619 - INFO -   ✓ 52 mots extraits de '-'
+2025-12-18 08:52:51,620 - INFO - [43/63] Plage: -
+2025-12-18 08:52:55,118 - INFO -   ✓ 2260 mots extraits de '-'
+2025-12-18 08:52:55,120 - INFO - [44/63] Plage: -
+2025-12-18 08:52:57,046 - INFO -   ✓ 56 mots extraits de '-'
+2025-12-18 08:52:57,047 - INFO - [45/63] Plage: -n-
+2025-12-18 08:52:59,560 - INFO -   ✓ 868 mots extraits de '-n-'
+2025-12-18 08:52:59,561 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:53:09,574 - INFO - [46/63] Plage: -
+2025-12-18 08:53:12,844 - INFO -   ✓ 868 mots extraits de '-'
+2025-12-18 08:53:12,845 - INFO - [47/63] Plage: -ntsika
+2025-12-18 08:53:15,260 - INFO -   ✓ 868 mots extraits de '-ntsika'
+2025-12-18 08:53:15,261 - INFO - [48/63] Plage: -o
+2025-12-18 08:53:17,842 - INFO -   ✓ 1127 mots extraits de '-o'
+2025-12-18 08:53:17,843 - INFO - [49/63] Plage: -
+2025-12-18 08:53:20,405 - INFO -   ✓ 1127 mots extraits de '-'
+2025-12-18 08:53:20,406 - INFO - [50/63] Plage: -pa
+2025-12-18 08:53:23,660 - INFO -   ✓ 2206 mots extraits de '-pa'
+2025-12-18 08:53:23,661 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:53:33,674 - INFO - [51/63] Plage: -
+2025-12-18 08:53:38,091 - INFO -   ✓ 2206 mots extraits de '-'
+2025-12-18 08:53:38,092 - INFO - [52/63] Plage: -
+2025-12-18 08:53:41,125 - INFO -   ✓ 2694 mots extraits de '-'
+2025-12-18 08:53:41,126 - INFO - [53/63] Plage: -
+2025-12-18 08:53:44,891 - INFO -   ✓ 3902 mots extraits de '-'
+2025-12-18 08:53:44,892 - INFO - [54/63] Plage: -
+2025-12-18 08:53:47,481 - INFO -   ✓ 1297 mots extraits de '-'
+2025-12-18 08:53:47,482 - INFO - [55/63] Plage: -
+2025-12-18 08:53:50,755 - INFO -   ✓ 2362 mots extraits de '-'
+2025-12-18 08:53:50,757 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:54:00,770 - INFO - [56/63] Plage: te-
+2025-12-18 08:54:04,069 - INFO -   ✓ 905 mots extraits de 'te-'
+2025-12-18 08:54:04,071 - INFO - [57/63] Plage: -
+2025-12-18 08:54:06,685 - INFO -   ✓ 905 mots extraits de '-'
+2025-12-18 08:54:06,686 - INFO - [58/63] Plage: -
+2025-12-18 08:54:10,549 - INFO -   ✓ 4713 mots extraits de '-'
+2025-12-18 08:54:10,550 - INFO - [59/63] Plage: -
+2025-12-18 08:54:13,426 - INFO -   ✓ 2292 mots extraits de '-'
+2025-12-18 08:54:13,427 - INFO - [60/63] Plage: -
+2025-12-18 08:54:18,118 - INFO -   ✓ 5036 mots extraits de '-'
+2025-12-18 08:54:18,120 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:54:28,130 - INFO - [61/63] Plage: -
+2025-12-18 08:54:31,396 - INFO -   ✓ 774 mots extraits de '-'
+2025-12-18 08:54:31,398 - INFO - [62/63] Plage: -a
+2025-12-18 08:54:33,311 - INFO -   ✓ 2 mots extraits de '-a'
+2025-12-18 08:54:33,312 - INFO - [63/63] Plage: J-M de La Beaujardière
+2025-12-18 08:54:35,183 - INFO -   ✓ 1 mots extraits de 'J-M de La Beaujardière'
+2025-12-18 08:54:35,185 - INFO - 
+=== SCRAPING TERMINÉ ===
+2025-12-18 08:54:35,186 - INFO - Total de mots collectés: 130350
+2025-12-18 08:54:35,187 - INFO - Durée totale: 325.34 secondes
+2025-12-18 08:54:36,958 - INFO - ✓ 130350 mots exportés vers malagasy_dictionary.json
+2025-12-18 08:55:33,260 - INFO - 
+=== DÉBUT DU SCRAPING ===
+
+2025-12-18 08:55:33,261 - INFO - Extraction des plages alphabétiques...
+2025-12-18 08:55:36,312 - INFO - ✓ 63 plages alphabétiques trouvées
+2025-12-18 08:55:36,312 - INFO - [1/63] Plage: Fitenim-paritra
+2025-12-18 08:55:38,177 - INFO -   ✓ 2 mots extraits de 'Fitenim-paritra'
+2025-12-18 08:55:38,178 - INFO - [2/63] Plage: Anaran-tsamirery
+2025-12-18 08:55:40,649 - INFO -   ✓ 5 mots extraits de 'Anaran-tsamirery'
+2025-12-18 08:55:40,650 - INFO - [3/63] Plage: Fitsipi-pitenenana
+2025-12-18 08:55:42,517 - INFO -   ✓ 3 mots extraits de 'Fitsipi-pitenenana'
+2025-12-18 08:55:42,518 - INFO - [4/63] Plage: Mpiara-miasa
+2025-12-18 08:55:44,392 - INFO -   ✓ 1 mots extraits de 'Mpiara-miasa'
+2025-12-18 08:55:44,394 - INFO - [5/63] Plage: Sokajin-teny
+2025-12-18 08:55:46,271 - INFO -   ✓ 77 mots extraits de 'Sokajin-teny'
+2025-12-18 08:55:46,272 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:55:56,284 - INFO - [6/63] Plage: -
+2025-12-18 08:56:00,357 - INFO -   ✓ 2109 mots extraits de '-'
+2025-12-18 08:56:00,359 - INFO - [7/63] Plage: -
+2025-12-18 08:56:03,728 - INFO -   ✓ 3410 mots extraits de '-'
+2025-12-18 08:56:03,730 - INFO - [8/63] Plage: -
+2025-12-18 08:56:08,109 - INFO -   ✓ 5457 mots extraits de '-'
+2025-12-18 08:56:08,110 - INFO - [9/63] Plage: -ay
+2025-12-18 08:56:11,777 - INFO -   ✓ 3216 mots extraits de '-ay'
+2025-12-18 08:56:11,778 - INFO - [10/63] Plage: -
+2025-12-18 08:56:15,352 - INFO -   ✓ 3216 mots extraits de '-'
+2025-12-18 08:56:15,353 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:56:25,364 - INFO - [11/63] Plage: -
+2025-12-18 08:56:29,845 - INFO -   ✓ 2407 mots extraits de '-'
+2025-12-18 08:56:29,846 - INFO - [12/63] Plage: -
+2025-12-18 08:56:32,540 - INFO -   ✓ 1447 mots extraits de '-'
+2025-12-18 08:56:32,541 - INFO - [13/63] Plage: -
+2025-12-18 08:56:34,625 - INFO -   ✓ 788 mots extraits de '-'
+2025-12-18 08:56:34,626 - INFO - [14/63] Plage: -
+2025-12-18 08:56:37,397 - INFO -   ✓ 998 mots extraits de '-'
+2025-12-18 08:56:37,397 - INFO - [15/63] Plage: -
+2025-12-18 08:56:40,134 - INFO -   ✓ 1204 mots extraits de '-'
+2025-12-18 08:56:40,135 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:56:50,165 - INFO - [16/63] Plage: -
+2025-12-18 08:56:59,355 - INFO -   ✓ 2106 mots extraits de '-'
+2025-12-18 08:56:59,357 - INFO - [17/63] Plage: -
+2025-12-18 08:57:03,562 - INFO -   ✓ 2404 mots extraits de '-'
+2025-12-18 08:57:03,562 - INFO - [18/63] Plage: fao-
+2025-12-18 08:57:06,752 - INFO -   ✓ 2404 mots extraits de 'fao-'
+2025-12-18 08:57:06,752 - INFO - [19/63] Plage: -
+2025-12-18 08:57:09,653 - INFO -   ✓ 2103 mots extraits de '-'
+2025-12-18 08:57:09,669 - INFO - [20/63] Plage: -
+2025-12-18 08:57:11,766 - INFO -   ✓ 350 mots extraits de '-'
+2025-12-18 08:57:11,766 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:57:21,781 - INFO - [21/63] Plage: -
+2025-12-18 08:57:26,565 - INFO -   ✓ 1895 mots extraits de '-'
+2025-12-18 08:57:26,566 - INFO - [22/63] Plage: -
+2025-12-18 08:57:29,468 - INFO -   ✓ 1122 mots extraits de '-'
+2025-12-18 08:57:29,469 - INFO - [23/63] Plage: -
+2025-12-18 08:57:33,559 - INFO -   ✓ 3385 mots extraits de '-'
+2025-12-18 08:57:33,560 - INFO - [24/63] Plage: FX-Mahah
+2025-12-18 08:57:37,425 - INFO -   ✓ 3385 mots extraits de 'FX-Mahah'
+2025-12-18 08:57:37,426 - INFO - [25/63] Plage: -
+2025-12-18 08:57:39,560 - INFO -   ✓ 617 mots extraits de '-'
+2025-12-18 08:57:39,561 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:57:49,577 - INFO - [26/63] Plage: h-
+2025-12-18 08:57:54,641 - INFO -   ✓ 4231 mots extraits de 'h-'
+2025-12-18 08:57:54,642 - INFO - [27/63] Plage: -
+2025-12-18 08:57:58,718 - INFO -   ✓ 4231 mots extraits de '-'
+2025-12-18 08:57:58,719 - INFO - [28/63] Plage: -
+2025-12-18 08:58:03,082 - INFO -   ✓ 5018 mots extraits de '-'
+2025-12-18 08:58:03,083 - INFO - [29/63] Plage: -
+2025-12-18 08:58:05,537 - INFO -   ✓ 676 mots extraits de '-'
+2025-12-18 08:58:05,538 - INFO - [30/63] Plage: -
+2025-12-18 08:58:09,478 - INFO -   ✓ 4266 mots extraits de '-'
+2025-12-18 08:58:09,480 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:58:19,488 - INFO - [31/63] Plage: -
+2025-12-18 08:58:25,434 - INFO -   ✓ 2741 mots extraits de '-'
+2025-12-18 08:58:25,436 - INFO - [32/63] Plage: -
+2025-12-18 08:58:29,499 - INFO -   ✓ 4028 mots extraits de '-'
+2025-12-18 08:58:29,501 - INFO - [33/63] Plage: -
+2025-12-18 08:58:33,298 - INFO -   ✓ 3299 mots extraits de '-'
+2025-12-18 08:58:33,300 - INFO - [34/63] Plage: -
+2025-12-18 08:58:36,942 - INFO -   ✓ 3153 mots extraits de '-'
+2025-12-18 08:58:36,943 - INFO - [35/63] Plage: -
+2025-12-18 08:58:40,890 - INFO -   ✓ 3664 mots extraits de '-'
+2025-12-18 08:58:40,893 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:58:50,911 - INFO - [36/63] Plage: -
+2025-12-18 08:59:08,468 - INFO -   ✓ 2303 mots extraits de '-'
+2025-12-18 08:59:08,470 - INFO - [37/63] Plage: -
+2025-12-18 08:59:11,122 - INFO -   ✓ 1004 mots extraits de '-'
+2025-12-18 08:59:11,123 - INFO - [38/63] Plage: -
+2025-12-18 08:59:14,321 - INFO -   ✓ 1542 mots extraits de '-'
+2025-12-18 08:59:14,322 - INFO - [39/63] Plage: -
+2025-12-18 08:59:19,791 - INFO -   ✓ 4756 mots extraits de '-'
+2025-12-18 08:59:19,793 - INFO - [40/63] Plage: -
+2025-12-18 08:59:24,508 - INFO -   ✓ 2819 mots extraits de '-'
+2025-12-18 08:59:24,509 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:59:34,515 - INFO - [41/63] Plage: -
+2025-12-18 08:59:38,883 - INFO -   ✓ 1987 mots extraits de '-'
+2025-12-18 08:59:38,885 - INFO - [42/63] Plage: -
+2025-12-18 08:59:40,748 - INFO -   ✓ 52 mots extraits de '-'
+2025-12-18 08:59:40,749 - INFO - [43/63] Plage: -
+2025-12-18 08:59:44,073 - INFO -   ✓ 2260 mots extraits de '-'
+2025-12-18 08:59:44,074 - INFO - [44/63] Plage: -
+2025-12-18 08:59:45,981 - INFO -   ✓ 56 mots extraits de '-'
+2025-12-18 08:59:45,983 - INFO - [45/63] Plage: -n-
+2025-12-18 08:59:48,478 - INFO -   ✓ 868 mots extraits de '-n-'
+2025-12-18 08:59:48,479 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 08:59:58,483 - INFO - [46/63] Plage: -
+2025-12-18 09:00:01,745 - INFO -   ✓ 868 mots extraits de '-'
+2025-12-18 09:00:01,746 - INFO - [47/63] Plage: -ntsika
+2025-12-18 09:00:04,189 - INFO -   ✓ 868 mots extraits de '-ntsika'
+2025-12-18 09:00:04,190 - INFO - [48/63] Plage: -o
+2025-12-18 09:00:06,707 - INFO -   ✓ 1127 mots extraits de '-o'
+2025-12-18 09:00:06,708 - INFO - [49/63] Plage: -
+2025-12-18 09:00:09,333 - INFO -   ✓ 1127 mots extraits de '-'
+2025-12-18 09:00:09,334 - INFO - [50/63] Plage: -pa
+2025-12-18 09:00:12,584 - INFO -   ✓ 2206 mots extraits de '-pa'
+2025-12-18 09:00:12,586 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 09:00:22,599 - INFO - [51/63] Plage: -
+2025-12-18 09:00:26,804 - INFO -   ✓ 2206 mots extraits de '-'
+2025-12-18 09:00:26,805 - INFO - [52/63] Plage: -
+2025-12-18 09:00:29,878 - INFO -   ✓ 2694 mots extraits de '-'
+2025-12-18 09:00:29,887 - INFO - [53/63] Plage: -
+2025-12-18 09:00:33,641 - INFO -   ✓ 3902 mots extraits de '-'
+2025-12-18 09:00:33,643 - INFO - [54/63] Plage: -
+2025-12-18 09:00:36,319 - INFO -   ✓ 1297 mots extraits de '-'
+2025-12-18 09:00:36,321 - INFO - [55/63] Plage: -
+2025-12-18 09:00:39,552 - INFO -   ✓ 2362 mots extraits de '-'
+2025-12-18 09:00:39,553 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 09:00:49,564 - INFO - [56/63] Plage: te-
+2025-12-18 09:00:52,996 - INFO -   ✓ 905 mots extraits de 'te-'
+2025-12-18 09:00:52,997 - INFO - [57/63] Plage: -
+2025-12-18 09:00:55,909 - INFO -   ✓ 905 mots extraits de '-'
+2025-12-18 09:00:55,911 - INFO - [58/63] Plage: -
+2025-12-18 09:00:59,870 - INFO -   ✓ 4713 mots extraits de '-'
+2025-12-18 09:00:59,871 - INFO - [59/63] Plage: -
+2025-12-18 09:01:02,760 - INFO -   ✓ 2292 mots extraits de '-'
+2025-12-18 09:01:02,761 - INFO - [60/63] Plage: -
+2025-12-18 09:01:07,272 - INFO -   ✓ 5036 mots extraits de '-'
+2025-12-18 09:01:07,274 - INFO -   ⏸ Pause de 10 secondes...
+2025-12-18 09:01:17,277 - INFO - [61/63] Plage: -
+2025-12-18 09:01:20,820 - INFO -   ✓ 774 mots extraits de '-'
+2025-12-18 09:01:20,822 - INFO - [62/63] Plage: -a
+2025-12-18 09:01:22,729 - INFO -   ✓ 2 mots extraits de '-a'
+2025-12-18 09:01:22,730 - INFO - [63/63] Plage: J-M de La Beaujardière
+2025-12-18 09:01:24,582 - INFO -   ✓ 1 mots extraits de 'J-M de La Beaujardière'
+2025-12-18 09:01:24,585 - INFO - 
+=== SCRAPING TERMINÉ ===
+2025-12-18 09:01:24,587 - INFO - Total de mots collectés: 130350
+2025-12-18 09:01:24,589 - INFO - Durée totale: 351.32 secondes
+2025-12-18 09:01:26,361 - INFO - ✓ 130350 mots exportés vers malagasy_dictionary.json
+2025-12-18 09:01:26,972 - INFO - ✓ 130350 mots exportés vers malagasy_dictionary.csv
