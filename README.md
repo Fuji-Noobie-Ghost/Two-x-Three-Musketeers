@@ -38,7 +38,7 @@ Un éditeur intelligent conçu spécifiquement pour la langue malgache, combinan
 * prénom(s) : Zo Michaël 
 * classe : ESIIA 5
 * numéro : 15
-* rôle : *Ontology Engineer, Data Engineer*
+* rôle : *Ontology Engineer, Data Engineer, Algo*
 
 #### Membre 5 : 
 * nom : ANDRIAMIHAJA
