@@ -1,0 +1,828 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/zorat/ontologies/2025/11/examClinique-3mousquetaires-fois-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/zorat/ontologies/2025/11/examClinique-3mousquetaires-fois-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/zorat/ontologies/2025/11/examClinique-3mousquetaires-fois-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Anabavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anadahy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dadatoa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fianakaviana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lehilahy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mpiray_tampoa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nenitoa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Olona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rahalahy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rahavavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ray"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RayBe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ray_aman_Dreny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ray_aman_Dreny_Be"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reny"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RenyBe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sokajy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vady"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vehivavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zafikely"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zanak_olo_mpianadahy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zanak_olo_mpirahalahy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zanak_olo_mpirahavavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zanaka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zanaka_Lahy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zanaka_Vavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zandry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zoky"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Zandrin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Zokin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#anabavin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#anadahin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#anisaNyFianakaviana"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dadatoan_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#mpiray_tampo_amin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nenitoan_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rahalahin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rahavavin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#rain_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ray_aman-drenin-i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ray_aman_dreny_be_an_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#raybe_an_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#renibe_an_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#renin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#vadin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zafikelin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zana_drahalahin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zana_drahavavin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zanak_anabavin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zanak_anadahin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zanak_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zanaka_lahin_i"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#zanaka_vavin_i"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fara"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Felana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Koto"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mamy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Soa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Volana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fianakaviana1"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Olona"/>
+        <ObjectUnionOf>
+            <Class IRI="#Lehilahy"/>
+            <Class IRI="#Vehivavy"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Anabavy"/>
+        <Class IRI="#Mpiray_tampoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anabavy"/>
+        <Class IRI="#Vehivavy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anadahy"/>
+        <Class IRI="#Lehilahy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anadahy"/>
+        <Class IRI="#Mpiray_tampoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dadatoa"/>
+        <Class IRI="#Lehilahy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dadatoa"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lehilahy"/>
+        <Class IRI="#Olona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mpiray_tampoa"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nenitoa"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nenitoa"/>
+        <Class IRI="#Vehivavy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rahalahy"/>
+        <Class IRI="#Lehilahy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rahalahy"/>
+        <Class IRI="#Mpiray_tampoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rahavavy"/>
+        <Class IRI="#Mpiray_tampoa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rahavavy"/>
+        <Class IRI="#Vehivavy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ray"/>
+        <Class IRI="#Lehilahy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ray"/>
+        <Class IRI="#Ray_aman_Dreny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RayBe"/>
+        <Class IRI="#Lehilahy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RayBe"/>
+        <Class IRI="#Ray_aman_Dreny_Be"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ray_aman_Dreny"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ray_aman_Dreny_Be"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reny"/>
+        <Class IRI="#Ray_aman_Dreny"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reny"/>
+        <Class IRI="#Vehivavy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenyBe"/>
+        <Class IRI="#Ray_aman_Dreny_Be"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RenyBe"/>
+        <Class IRI="#Vehivavy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sokajy"/>
+        <Class IRI="#Olona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vady"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vehivavy"/>
+        <Class IRI="#Olona"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zafikely"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zanak_olo_mpianadahy"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zanak_olo_mpirahalahy"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zanak_olo_mpirahavavy"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zanaka"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zanaka_Lahy"/>
+        <Class IRI="#Zanaka"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zanaka_Vavy"/>
+        <Class IRI="#Zanaka"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zandry"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zoky"/>
+        <Class IRI="#Sokajy"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Lehilahy"/>
+        <Class IRI="#Vehivavy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Ray"/>
+        <Class IRI="#Reny"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#RayBe"/>
+        <Class IRI="#RenyBe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Zanaka_Lahy"/>
+        <Class IRI="#Zanaka_Vavy"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Zandry"/>
+        <Class IRI="#Zoky"/>
+    </DisjointClasses>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#anisaNyFianakaviana"/>
+        <NamedIndividual IRI="#Bary"/>
+        <NamedIndividual IRI="#fianakaviana1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rain_i"/>
+        <NamedIndividual IRI="#Bary"/>
+        <NamedIndividual IRI="#Fara"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rain_i"/>
+        <NamedIndividual IRI="#Bary"/>
+        <NamedIndividual IRI="#Jao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#raybe_an_i"/>
+        <NamedIndividual IRI="#Bary"/>
+        <NamedIndividual IRI="#Koto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#raybe_an_i"/>
+        <NamedIndividual IRI="#Bary"/>
+        <NamedIndividual IRI="#Mamy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#raybe_an_i"/>
+        <NamedIndividual IRI="#Bary"/>
+        <NamedIndividual IRI="#Vero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#raybe_an_i"/>
+        <NamedIndividual IRI="#Bary"/>
+        <NamedIndividual IRI="#Volana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#vadin_i"/>
+        <NamedIndividual IRI="#Bary"/>
+        <NamedIndividual IRI="#Soa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#anabavin_i"/>
+        <NamedIndividual IRI="#Fara"/>
+        <NamedIndividual IRI="#Jao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#anisaNyFianakaviana"/>
+        <NamedIndividual IRI="#Fara"/>
+        <NamedIndividual IRI="#fianakaviana1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nenitoan_i"/>
+        <NamedIndividual IRI="#Fara"/>
+        <NamedIndividual IRI="#Koto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nenitoan_i"/>
+        <NamedIndividual IRI="#Fara"/>
+        <NamedIndividual IRI="#Vero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nenitoan_i"/>
+        <NamedIndividual IRI="#Fara"/>
+        <NamedIndividual IRI="#Volana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#vadin_i"/>
+        <NamedIndividual IRI="#Felana"/>
+        <NamedIndividual IRI="#Jao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#anadahin_i"/>
+        <NamedIndividual IRI="#Jao"/>
+        <NamedIndividual IRI="#Fara"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#anisaNyFianakaviana"/>
+        <NamedIndividual IRI="#Jao"/>
+        <NamedIndividual IRI="#fianakaviana1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rain_i"/>
+        <NamedIndividual IRI="#Jao"/>
+        <NamedIndividual IRI="#Koto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rain_i"/>
+        <NamedIndividual IRI="#Jao"/>
+        <NamedIndividual IRI="#Mamy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rain_i"/>
+        <NamedIndividual IRI="#Jao"/>
+        <NamedIndividual IRI="#Vero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rain_i"/>
+        <NamedIndividual IRI="#Jao"/>
+        <NamedIndividual IRI="#Volana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zanak_i"/>
+        <NamedIndividual IRI="#Jao"/>
+        <NamedIndividual IRI="#Bary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zanak_i"/>
+        <NamedIndividual IRI="#Jao"/>
+        <NamedIndividual IRI="#Soa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#anadahin_i"/>
+        <NamedIndividual IRI="#Koto"/>
+        <NamedIndividual IRI="#Vero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rahalahin_i"/>
+        <NamedIndividual IRI="#Koto"/>
+        <NamedIndividual IRI="#Mamy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zanak_anadahin_i"/>
+        <NamedIndividual IRI="#Koto"/>
+        <NamedIndividual IRI="#Fara"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zanak_anadahin_i"/>
+        <NamedIndividual IRI="#Mamy"/>
+        <NamedIndividual IRI="#Fara"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#anisaNyFianakaviana"/>
+        <NamedIndividual IRI="#Soa"/>
+        <NamedIndividual IRI="#fianakaviana1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#renibe_an_i"/>
+        <NamedIndividual IRI="#Soa"/>
+        <NamedIndividual IRI="#Koto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#renibe_an_i"/>
+        <NamedIndividual IRI="#Soa"/>
+        <NamedIndividual IRI="#Mamy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#renibe_an_i"/>
+        <NamedIndividual IRI="#Soa"/>
+        <NamedIndividual IRI="#Vero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#renibe_an_i"/>
+        <NamedIndividual IRI="#Soa"/>
+        <NamedIndividual IRI="#Volana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#renin_i"/>
+        <NamedIndividual IRI="#Soa"/>
+        <NamedIndividual IRI="#Jao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#rahavavin_i"/>
+        <NamedIndividual IRI="#Vero"/>
+        <NamedIndividual IRI="#Volana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zanak_anadahin_i"/>
+        <NamedIndividual IRI="#Vero"/>
+        <NamedIndividual IRI="#Fara"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#zanak_anadahin_i"/>
+        <NamedIndividual IRI="#Volana"/>
+        <NamedIndividual IRI="#Fara"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#anabavin_i"/>
+        <ObjectProperty IRI="#mpiray_tampo_amin_i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#anadahin_i"/>
+        <ObjectProperty IRI="#mpiray_tampo_amin_i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#nenitoan_i"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#rahalahin_i"/>
+        <ObjectProperty IRI="#mpiray_tampo_amin_i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#rahavavin_i"/>
+        <ObjectProperty IRI="#mpiray_tampo_amin_i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#rain_i"/>
+        <ObjectProperty IRI="#ray_aman-drenin-i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#raybe_an_i"/>
+        <ObjectProperty IRI="#ray_aman_dreny_be_an_i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#renibe_an_i"/>
+        <ObjectProperty IRI="#ray_aman_dreny_be_an_i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#renin_i"/>
+        <ObjectProperty IRI="#ray_aman-drenin-i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#zanaka_lahin_i"/>
+        <ObjectProperty IRI="#zanak_i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#zanaka_vavin_i"/>
+        <ObjectProperty IRI="#zanak_i"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Zandrin_i"/>
+        <ObjectProperty IRI="#Zokin_i"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ray_aman-drenin-i"/>
+        <ObjectProperty IRI="#zanak_i"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ray_aman_dreny_be_an_i"/>
+        <ObjectProperty IRI="#zafikelin_i"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#mpiray_tampo_amin_i"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#vadin_i"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#mpiray_tampo_amin_i"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#ray_aman-drenin-i"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#ray_aman_dreny_be_an_i"/>
+    </TransitiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#anabavin_i"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#anadahin_i"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#rahalahin_i"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#rahavavin_i"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Zandrin_i"/>
+        <Class IRI="#Zandry"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Zokin_i"/>
+        <Class IRI="#Zoky"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#anabavin_i"/>
+        <Class IRI="#Anabavy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#anadahin_i"/>
+        <Class IRI="#Anadahy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#anisaNyFianakaviana"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dadatoan_i"/>
+        <Class IRI="#Dadatoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#mpiray_tampo_amin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nenitoan_i"/>
+        <Class IRI="#Nenitoa"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#rahalahin_i"/>
+        <Class IRI="#Rahalahy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#rahavavin_i"/>
+        <Class IRI="#Rahavavy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#rain_i"/>
+        <Class IRI="#Ray"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ray_aman-drenin-i"/>
+        <Class IRI="#Ray_aman_Dreny"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ray_aman_dreny_be_an_i"/>
+        <Class IRI="#Ray_aman_Dreny_Be"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#raybe_an_i"/>
+        <Class IRI="#RayBe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#renibe_an_i"/>
+        <Class IRI="#RenyBe"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#renin_i"/>
+        <Class IRI="#Reny"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#vadin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zafikelin_i"/>
+        <Class IRI="#Zafikely"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zana_drahalahin_i"/>
+        <Class IRI="#Zanak_olo_mpirahalahy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zana_drahavavin_i"/>
+        <Class IRI="#Zanak_olo_mpirahavavy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zanak_anabavin_i"/>
+        <Class IRI="#Zanak_olo_mpianadahy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zanak_anadahin_i"/>
+        <Class IRI="#Zanak_olo_mpianadahy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#zanak_i"/>
+        <Class IRI="#Zanaka"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Zandrin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Zokin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#anabavin_i"/>
+        <Class IRI="#Lehilahy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#anadahin_i"/>
+        <Class IRI="#Vehivavy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#anisaNyFianakaviana"/>
+        <Class IRI="#Fianakaviana"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dadatoan_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#mpiray_tampo_amin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nenitoan_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#rahalahin_i"/>
+        <Class IRI="#Lehilahy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#rahavavin_i"/>
+        <Class IRI="#Vehivavy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#rain_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ray_aman-drenin-i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ray_aman_dreny_be_an_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#renin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#vadin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zafikelin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zana_drahalahin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zana_drahavavin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zanak_anabavin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zanak_anadahin_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#zanak_i"/>
+        <Class IRI="#Olona"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#zanak_i"/>
+            <ObjectProperty IRI="#rahalahin_i"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#dadatoan_i"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#zanak_i"/>
+            <ObjectProperty IRI="#rahavavin_i"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#nenitoan_i"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

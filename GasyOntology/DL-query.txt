@@ -1,0 +1,14 @@
+Lien de l'Ontologie :
+-------------------
+http://www.semanticweb.org/zorat/ontologies/2025/11/examClinique-3mousquetaires-fois-2
+
+Requettes :
+---------
+zanak_i some Olona
+Lehilahy
+Vehivavy
+raybe_an_i some Olona
+renibe_an_i some Olona
+mpiray_tampo_amin_i some Olona
+zanak_anadahin_i some Olona
+nenitoan_i some Olona
