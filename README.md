@@ -8,7 +8,7 @@ Un éditeur intelligent conçu spécifiquement pour la langue malgache, combinan
 
 Réalisé au sein de ISPM - Madagascar (www.ispm-edu.com)
 
-## ** Nom du projet : IAMA
+## ** Nom du projet : IAMA**
 
 ### **1\. Informations sur le Groupe**
 
@@ -54,7 +54,8 @@ Réalisé au sein de ISPM - Madagascar (www.ispm-edu.com)
 * numéro : 19
 * rôle : *Lead Backend, DevOps*
 
-### **2\. Fonctionnalité IA Implémentées
+### **2\. Fonctionnalité IA Implémentées**
+
 2.1 *Correcteur Orthographique Hybride*
    - Distance de Levenshtein optimisée avec RapidFuzz
    - Règles phonotactiques malgaches (nb, mk, nk interdits)
