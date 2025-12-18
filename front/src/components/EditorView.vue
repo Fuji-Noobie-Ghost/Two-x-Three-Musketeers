@@ -24,12 +24,9 @@ onBeforeUnmount(() => {
 
 <style lang="scss">
 .editor-container {
-  // border: 1px solid #ccc;
-  // border-radius: 8px;
+  background-color: white;
+  border-radius: 4px;
   padding: 1rem;
-  width: 800px; /* Largeur fixe pour l'éditeur */
-  max-width: 100%; /* Assure la responsivité sur les petits écrans */
- // margin: 0 auto; /* Centre le conteneur si la vue est plus large */
 }
 
 /* Basic editor styles */

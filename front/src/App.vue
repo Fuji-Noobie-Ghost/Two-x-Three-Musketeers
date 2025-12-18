@@ -20,9 +20,16 @@ import EditorToolbar from './components/EditorToolbar.vue';
         Imprimer
       </v-btn>
     </v-app-bar>
-    <v-main class="">
-      <v-container>
-        <EditorView/>
+    <v-main style="background-color: #fafafa;">
+      <v-container fluid>
+        <v-row>
+          <v-col cols="12" md="8">
+            <EditorView/>
+          </v-col>
+          <v-col cols="12" md="4">
+            <div class="right-panel">Contenu de la div de droite</div>
+          </v-col>
+        </v-row>
       </v-container>
     </v-main>
   </v-app>
@@ -30,6 +37,13 @@ import EditorToolbar from './components/EditorToolbar.vue';
 </template>
 
 <style scoped>
+.right-panel {
+  border: 1px dashed #ccc;
+  padding: 1rem;
+  height: 100%;
+  background-color: white;
+  border-radius: 4px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
