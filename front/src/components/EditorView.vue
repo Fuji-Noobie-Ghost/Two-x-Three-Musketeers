@@ -24,7 +24,7 @@ onBeforeUnmount(() => {
 
 <style lang="scss">
 .editor-container {
-  background-color: white;
+  background-color: white; 
   border-radius: 4px;
   padding: 1rem;
   height: 100vh; /* Hauteur de la fenêtre */
