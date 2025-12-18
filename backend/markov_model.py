@@ -1,3 +1,5 @@
+import pickle
+import datetime
 from collections import defaultdict, Counter
 from nltk.tokenize import word_tokenize
 
@@ -57,6 +59,9 @@ with open(output_file, "r", encoding="utf-8") as f:
 model = MarkovLanguageModel(order=3)  # trigramme = ordre 3 → dépend des 2 mots précédents
 model.train(corpus)
 
+model2 = MarkovLanguageModel(order=2)
+model2.train(corpus)
+
 # Vérifier si "tonga" est dans le vocabulaire
 vocab = set()
 for context in model.ngram_counts:
@@ -72,4 +77,17 @@ for context, next_words in model.ngram_counts.items():
 # ------------------
 # Prédiction
 # ------------------
-print("Après 'tonga' →", model.predict_next(["tonga"]))
+print("Après 'tonga' →", model2.predict_next(["tonga"]))
+
+# Supposons que 'model' est votre instance entraînée
+now = datetime.datetime.now().strftime("%Y%m%d")
+filename = f"models/malagasy_markov_model_2_v1_{now}.pkl"
+filename2 = f"models/malagasy_markov_model_3_v1_{now}.pkl"
+
+with open(filename, "wb") as f:
+    pickle.dump(model, f)
+
+with open(filename2, "wb") as f:
+    pickle.dump(model2, f)
+
+print("✅ Modèle sauvegardé dans 'malagasy_markov_model.pkl'")

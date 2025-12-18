@@ -1,11 +1,11 @@
 import json
+import pickle
+import utils
+
 from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.responses import JSONResponse
 from typing import List, Dict, Any
-import json
-import utils
 from rapidfuzz import process, fuzz
-from markov_model import MarkovLanguageModel
 
 app = FastAPI(
     title="Éditeur Malagasy - API IA",
@@ -13,18 +13,11 @@ app = FastAPI(
     version="1.0.0"
 )
 
+with open("models/malagasy_markov_model_2_v1_20251218.pkl", "rb") as f:
+    markov_model = pickle.load(f)
 
-corpus = []
-
-output_file = "data/bible_malgache_phrases.txt"
-with open(output_file, "r", encoding="utf-8") as f:
-    for line in f:
-        phrase = line.strip()  # Supprime les sauts de ligne et espaces inutiles
-        if phrase:  # Ignore les lignes vides
-            corpus.append(phrase)
-
-markov_model = MarkovLanguageModel(order=2)  # trigramme = ordre 3 → dépend des 2 mots précédents
-markov_model.train(corpus)
+with open("models/malagasy_markov_model_3_v1_20251218.pkl", "rb") as f:
+    markov_model2 = pickle.load(f)
 
 # Chargement du lexique au démarrage
 try:
@@ -132,7 +125,12 @@ def get_suggestions(
         if not MALAGASY_WORDS:
             raise BusinessLogicException(status_code=500, message="Lexique non chargé")
 
-    suggestions = markov_model.predict_next(word_split)
+    suggestions = []
+
+    if len(word_split) > 1:
+        suggestions = markov_model.predict_next(word_split)
+    else:
+        suggestions = markov_model2.predict_next(word_split)
 
     return BusinessLogicResponse(data=suggestions).send()
 
@@ -140,4 +138,4 @@ def get_suggestions(
 # Lancement (optionnel – généralement géré par `uvicorn`)
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=False)
