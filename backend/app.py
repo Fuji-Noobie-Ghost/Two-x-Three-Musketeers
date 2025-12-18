@@ -3,6 +3,7 @@ import pickle
 import utils
 
 from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from typing import List, Dict, Any
 from rapidfuzz import process, fuzz
@@ -11,6 +12,20 @@ app = FastAPI(
     title="Éditeur Malagasy - API IA",
     description="API pour correcteur orthographique et suggestions en malgache",
     version="1.0.0"
+)
+
+origins = [
+    "*",
+    "http://localhost:5173/",
+    "http://126.0.0.1:5173/"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,  # Allows specific origins
+    allow_credentials=True,  # Allows cookies to be sent cross-origin
+    allow_methods=["*"],  # Allows all standard HTTP methods (GET, POST, PUT, DELETE, etc.)
+    allow_headers=["*"],  # Allows all headers
 )
 
 with open("models/malagasy_markov_model_2_v1_20251218.pkl", "rb") as f:

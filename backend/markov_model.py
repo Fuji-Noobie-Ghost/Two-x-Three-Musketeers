@@ -62,18 +62,6 @@ model.train(corpus)
 model2 = MarkovLanguageModel(order=2)
 model2.train(corpus)
 
-# Vérifier si "tonga" est dans le vocabulaire
-vocab = set()
-for context in model.ngram_counts:
-    for word in model.ngram_counts[context]:
-        vocab.add(word)
-
-print("'tonga' dans vocab ? :", "tonga" in vocab)
-print("Exemples de contextes avec 'tonga' :")
-for context, next_words in model.ngram_counts.items():
-    if "tonga" in context or "tonga" in next_words:
-        print(f"  Contexte {context} → {list(next_words.keys())[:3]}")
-
 # ------------------
 # Prédiction
 # ------------------
