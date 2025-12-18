@@ -1,12 +1,12 @@
 # **IAMA_Project**
 
-## Éditeur de Texte Augmenté par l'IA pour le Malagasy
-Un éditeur intelligent conçu spécifiquement pour la langue malgache, combinant des approches hybrides pour pallier le manque de données.
-
-
 ## **Examen Clinique TP Intelligence Artificielle**
 
 Réalisé au sein de ISPM - Madagascar (www.ispm-edu.com)
+
+## Éditeur de Texte Augmenté par l'IA pour le Malagasy
+Un éditeur intelligent conçu spécifiquement pour la langue malgache, combinant des approches hybrides pour pallier le manque de données.
+
 
 ## **Nom du projet : IAMA**
 
