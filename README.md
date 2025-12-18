@@ -87,6 +87,8 @@ Un éditeur intelligent conçu spécifiquement pour la langue malgache, combinan
 | Analyse Sentiment        | Basé règles               | O(n)           | Listes de mots-clés, intensificateurs |
 | Fusion Résultats         | Méta-algorithme           | O(s)           | Pondération, résolution conflits |
 
+Ces algorithmes sont conçus spécifiquement pour les langues à faibles ressources comme le malagasy, avec un accent sur la robustesse, l'efficacité et la capacité à fonctionner avec peu de données.
+
 
 
 
