@@ -15,6 +15,11 @@ watch(() => editorStore.selectedText, (newSelectedText) => {
     console.log(`%cTexte sélectionné (vu depuis App.vue): ${newSelectedText}`, 'color: blue; font-weight: bold;');
   }
 });
+
+// Observer les changements du texte complet
+watch(() => editorStore.fullText, (newFullText) => {
+  console.log(`%cTexte complet: ${newFullText}`, 'color: green; font-weight: bold;');
+});
 </script>
 
 <template>
