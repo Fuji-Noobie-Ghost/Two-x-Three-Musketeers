@@ -5,10 +5,9 @@ import { createPinia } from 'pinia'
 import vuetify from './plugins/vuetify'
 
 
+const app = createApp(App)
 
+app.use(createPinia())
+app.use(vuetify)
 
-
-createApp(App).mount('#app')
-App.use(createPinia())
-App.use(vuetify)
-
+app.mount('#app')
